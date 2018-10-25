@@ -9,6 +9,7 @@ namespace SignalROrnek
 {
     public class SignalRContext : DbContext
     {
+        //Context base alınıyor . Bağlantı dizesi 
         public SignalRContext() : base("SignalRConnection")
         {
             
